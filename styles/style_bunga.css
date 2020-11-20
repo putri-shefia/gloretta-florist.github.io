@@ -1,0 +1,73 @@
+/* Styling khusus halaman Filosofi Bunga */
+
+@font-face {
+   font-family: "Autumn";
+   src: url('fonts/Autumn.otf');
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url('fonts/Comfortaa.ttf');
+}
+
+body {
+   background: #ccc395;
+   font-family: 'Comfortaa';
+   margin: 0;
+   padding: 0;
+}
+
+.hd { /*source gambar header */
+   background: url(headers/filosofi_bunga.jpg);
+}
+
+/*==== main====*/
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 50%;
+   padding: 20px;
+}
+
+#content2 {
+   float: right;
+   width:50%;
+   padding: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.box { /*box layout*/
+   background-color: #eeebdd;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/*========tampilan mobile phone========*/
+@media screen and (max-width: 1000px) {
+    #content,
+    #content2 {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/*========etc=========*/
+.flex-nav {
+  background-color: #ab8a57; /*warna sticky navigation*/
+}
+
+footer {
+   background-color: #7a6950; /*warna footer #cd5c5c;*/
+}
+
+.menu {
+   background-color: #7a6950; /*warna bagian footer*/
+}

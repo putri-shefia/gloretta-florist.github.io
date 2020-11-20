@@ -1,0 +1,60 @@
+/*=======header=======*/
+
+.jumbotron {
+   padding: 60px;
+   text-align: center;
+   color: white;
+   font-family: 'Comfortaa';
+   height: 100%;
+   background-size: cover;
+   object-position: center;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+
+.hdbox { /*box bckgrnd text di header*/
+  background-color: rgba(0,0,0, 0.7);
+  text-align: center;
+  display:inline-block;
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.hdp { /*p di header*/
+  font-size: 1.5vw;
+  letter-spacing: 15px;
+  object-position: center;
+}
+
+h1 {
+ overflow: auto;
+ font-family: 'Autumn';
+ font-size: 5vw;
+ text-shadow: 7px 7px 12px #ff9999;
+ font-style: normal;
+}
+
+/*========navigasi========*/
+
+header { /*agar sticky navigation ttap berada d atas hlman*/
+  display: contents;
+  }
+   .flex-nav {   /* sticky navigation */
+   top: 0;
+   display: flex;
+   flex-direction: row;
+   position: sticky;
+   justify-content: space-evenly;
+   padding: 18px;
+}
+
+nav a {
+   font-size: 16px;
+   font-weight: 400;
+   text-decoration: none; /*agar opsi menu di navigasi tidak ada garis bawah*/
+   color: white;
+}
+
+nav a:hover { /*tulisan bold ketika ada kursor*/
+   font-weight: bold;
+}

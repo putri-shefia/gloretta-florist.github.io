@@ -1,0 +1,70 @@
+/* Styling khusus halaman Tentang Kami */
+
+@font-face {
+   font-family: "Autumn";
+   src: url('fonts/Autumn.otf');
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url('fonts/Comfortaa.ttf');
+}
+
+body {
+   background: #c39e78;
+   font-family: 'Comfortaa';
+   margin: 0;
+   padding: 0;
+}
+
+.hd { /*source gambar header */
+   background: url(headers/tentang_kami.jpg);
+}
+
+/*==== main====*/
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 50%;
+   padding: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.box { /*box layout*/
+   background-color: #cfc0b0;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   height: 700px;
+}
+
+/*========tampilan mobile phone========*/
+@media screen and (max-width: 1000px) {
+   #content {
+       width: 100%;
+       padding: 10px;
+   }
+    .box {
+      height:80%;
+    }
+}
+/*========etc=========*/
+
+.flex-nav {
+  background-color: #a57867; /*warna sticky navigation*/
+}
+
+footer {
+   background-color: #5a4036; /*warna footer*/
+}
+
+.menu {
+   background-color: #5a4036; /*warna menu pada footer*/
+}

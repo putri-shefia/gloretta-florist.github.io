@@ -1,0 +1,77 @@
+/* Styling khusus halaman Filosofi Warna */
+
+@font-face {
+   font-family: "Autumn";
+   src: url('fonts/Autumn.otf');
+}
+
+@font-face {
+  font-family: "Comfortaa";
+  src: url('fonts/Comfortaa.ttf');
+}
+
+body {
+   background: #8ca9a2;
+   font-family: 'Comfortaa';
+   margin: 0;
+   padding: 0;
+}
+
+.hd { /*source gambar header */
+   background: url(headers/filosofi_warna.jpg);
+}
+
+/*==== main====*/
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 25%;
+   padding: 20px;
+}
+
+#content2 {
+   float: right;
+   width:25%;
+   padding: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.box { /*box layout*/
+   background-color: #bdccc2;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   height: 420px;
+}
+
+/*========tampilan mobile phone========*/
+@media screen and (max-width: 1000px) {
+   #content,
+   #content2 {
+       width: 100%;
+       padding: 10px;
+   }
+    .box {
+      height:80%;
+    }
+}
+/*========etc=========*/
+
+.flex-nav {
+  background-color: #618081; /*warna sticky navigation*/
+}
+
+footer {
+   background-color: #395f60; /*warna footer #cd5c5c;*/
+}
+
+.menu {
+   background-color: #395f60; /*warna menu pada footer*/
+}
